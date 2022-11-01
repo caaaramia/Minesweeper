@@ -1,0 +1,52 @@
+body {
+    opacity: 0.8;
+    background-image: radial-gradient(#ffffff 0.5px, #000000 0.5px);
+    background-size: 10px 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.menu {
+    height: 200px;
+    position: relative;
+    border: 3px solid white;
+    background-color: rgb(27, 27, 27);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10%;
+}
+
+.button {
+    background-color: #2271a2;
+    width: 130px;
+    line-height: 0;
+    margin: 0 auto;
+    display: block;
+    font-weight: bold;
+    font-size: small;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(bottom, #2271a2 0%, #1f638d 100%);
+    background-image:         linear-gradient(to bottom, #2271a2 0%, #1f638d 100%);
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #143c55;
+    background-image: -webkit-linear-gradient(bottom, #143c55 0%, #143c55 100%);
+    background-image:         linear-gradient(to bottom, #143c55 0%, #143c55 100%);
+}
+
